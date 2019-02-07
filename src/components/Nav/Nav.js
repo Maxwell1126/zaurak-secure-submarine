@@ -22,6 +22,12 @@ const Nav = (props) => (
           <Link className="nav-link" to="/secrets">
             Secrets Page
           </Link>
+
+          <Link className="nav-link" to="/allUsers">
+            All Users
+          </Link>
+
+
           <LogOutButton className="nav-link"/>
         </>
       )}
